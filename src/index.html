@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+      <div id="root"></div>
+      <!-- Must use require for webpack images -->
+      <img src=<%= require("./images/sk8.gif") %> />
+  </body>
+</html>
